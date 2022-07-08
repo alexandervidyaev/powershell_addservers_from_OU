@@ -1,5 +1,5 @@
 ﻿param (
-    $arg0
+    $arg0, $arg1
 )
 $domain = "DC=test,DC=local"
 $ConnectionBrokerHostname = "broker-01.test.local"
